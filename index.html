@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+        emailjs.init("Tc_tRwMz2PrC7yMMd");
+        })();
+    </script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="top">
+                <a href="#top">Ng Zy Lin</a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">&#9776;</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="top">
+        <div class="home-header">
+            <h1>Hello there, welcome 👋</h1>
+            <h2>I'm Zy Lin</h2>
+            <div class="resume-button">
+                <a href="https://drive.google.com/file/d/1Ms0BY6vgJDnzkvBQdTe_oHKjW8ygpOms/view" target="_blank" class="">My Resume</a>
+            </div>
+            <div class="home-contact-icons">
+                <a href="mailto:zylinng@gmail.com"><img src="images\Mail.png" alt="Email"></a>
+                <a href="https://linkedin.com/in/ng-zy-lin" target="_blank"><img src="images\LinkedIn.png" alt="LinkedIn"></a>
+                <a href="https://github.com/nzl123" target="_blank"><img src="images\GitHub.png" alt="GitHub"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="about">
+        <div class="about-header">
+            <h2>About</h2>
+        </div>
+        <div class="about-text">
+            <p>As a final-year Bachelor of Computer Science specialising in Cybersecurity. I am committed to continuous personal and professional growth. Eager to apply my technical and interpersonal skills in an environment that promotes innovation, with a focus on contributing to meaningful projects.</p>
+        </div>
+        <!-- additional info -->
+        <div class="collapsible">
+            <button class="collapsible-toggle">Additional Information</button>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Certifications:</strong> Python for Analytics, AWS Cloud Practitioner Essentials, Java Foundations</li>
+                    <li><strong>Honours and Awards:</strong> INNOFEST July 2023, Dean's List (January 2022)</li>
+                    <li><strong>Extracurricular Activities:</strong> Taylor's Badminton Club (member, 2022-2023), Taylor's Futsal & Football Club (member, 2021-2022)</li>
+                    <li><strong>Volunteer Experiences:</strong>
+                        <ul>
+                            1. Taylor's Student Development - Beach Clean-Up (Volunteer, October 2023)
+                        </ul>
+                    </li>
+                    <li><strong>Languages:</strong> English, Malay, Mandarin Chinese</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- skill section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-section">
+            <div class="skills-label">Languages</div>
+            <div class="skills-content">
+                <div class="skills-icon">
+                    <img src="images/HTML.png" alt="HTML">
+                    <div class="icon-name">HTML</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\CSS.png" alt="CSS">
+                    <div class="icon-name">CSS</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\JavaScript.png" alt="JavaScript">
+                    <div class="icon-name">JavaScript</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\TypeScript.png" alt="TypeScript">
+                    <div class="icon-name">TypeScript</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\PHP.png" alt="PHP">
+                    <div class="icon-name">PHP</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Python.png" alt="Python">
+                    <div class="icon-name">Python</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Java.png" alt="Java">
+                    <div class="icon-name">Java</div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-section">
+            <div class="skills-label">Frameworks & Libraries</div>
+            <div class="skills-content">
+                <div class="skills-icon">
+                    <img src="images/ReactNative.png" alt="React Native">
+                    <div class="icon-name">React Native</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Nodejs.png" alt="Node.js">
+                    <div class="icon-name">Node.js</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\React.png" alt="React">
+                    <div class="icon-name">React</div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-section">
+            <div class="skills-label">Databases & Tools</div>
+            <div class="skills-content">
+                <div class="skills-icon">
+                    <img src="images\MySQL.png" alt="MySQL">
+                    <div class="icon-name">MySQL</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Firebase.png" alt="Firebase">
+                    <div class="icon-name">Firebase</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images/AndroidStudio.png" alt="Android Studio">
+                    <div class="icon-name">Android Studio</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Figma.png" alt="Figma">
+                    <div class="icon-name">Figma</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Git.png" alt="Git">
+                    <div class="icon-name">Git</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\VmwareWorkstation.png" alt="VMware Workstation">
+                    <div class="icon-name">VMware Workstation</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Nmap.png" alt="Nmap">
+                    <div class="icon-name">Nmap</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Wireshark.png" alt="Wireshark">
+                    <div class="icon-name">Wireshark</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Metasploit.png" alt="Metasploit">
+                    <div class="icon-name">Metasploit</div>
+                </div>
+                <div class="skills-icon">
+                    <img src="images\Snort.png" alt="Snort">
+                    <div class="icon-name">Snort</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>BetterLyfe (Domestic Violence Support)</h3>
+                    <p>A mobile application designed to assist victims of domestic abuse and provide information on violence prevention. The app features a user dashboard that provides quick access to a variety of resources, including an emergency button for urgent contact with relevant authorities. It offers a resource library with up-to-date information on domestic abuse and mental health, and a helpline directory to search for support centres nearby. Additionally, users can interact anonymously with experts via live chat for immediate advice, participate in community forums with like-minded peers, and use risk assessment tools to determine whether they are currently in an abusive situation. Furthermore, the app also includes an anonymous reporting feature that enables users to report abusers without revealing the user's identity. Lastly, a review feature is included for users to rate and provide feedback on the application.</p>
+                    <div class="tech-used">
+                        <h4>Technologies Used:</h4>
+                        <div class="tech-icons-wrapper">
+                            <div class="tech-icons">
+                                <img src="images\JavaScript.png" alt="JavaScript">
+                                <div class="tooltip">JavaScript</div>
+                            </div>
+                            <div class="tech-icons">
+                                <img src="images\TypeScript.png" alt="TypeScript">
+                                <div class="tooltip">TypeScript</div>
+                            </div>
+                            <div class="tech-icons">
+                                <img src="images\ReactNative.png" alt="React Native">
+                                <div class="tooltip">React Native</div>
+                            </div>
+                            <div class="tech-icons">
+                                <img src="images\Nodejs.png" alt="Node.js">
+                                <div class="tooltip">Node.js</div>
+                            </div>
+                            <div class="tech-icons">
+                                <img src="images\React.png" alt="React">
+                                <div class="tooltip">React</div>
+                            </div>
+                            <div class="tech-icons">
+                                <img src="images\Figma.png" alt="Figma">
+                                <div class="tooltip">Figma</div>
+                            </div>
+                            <div class="tech-icons">
+                                <img src="images\Firebase.png" alt="Firebase">
+                                <div class="tooltip">Firebase</div>
+                            </div>
+                            <div class="tech-icons">
+                                <img src="images\AndroidStudio.png" alt="Android Studio">
+                                <div class="tooltip">Android Studio</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Citizenship MCQ Test Generation, Assessment, and Analysis System</h3>
+                    <p>A system designed to streamline the entire process of creating, administering, and analysing multiple-choice questions (MCQs) for a simulated citizenship exam. The project involved building an interface using Java Swing, where candidates could easily log in, complete their tests, and view their results. The system automatically handled candidate data, such as storing personal details and test scores. Additionally, the system provided basic statistical analysis of the results such as mean, median, mode, and maximum scores. This project not only ensured a smooth and efficient examination process but also allowed for a comprehensive evaluation of candidate performance.</p>
+                    <div class="tech-used">
+                        <h4>Technologies Used:</h4>
+                        <div class="tech-icons-wrapper">
+                            <div class="tech-icons">
+                                <img src="images\Java.png" alt="Java">
+                                <div class="tooltip">Java</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Spam Email Detection</h3>
+                    <p>This project involved developing a machine learning-based system for the classification and detection of spam emails. The primary objective was to address the evolving nature of spamming techniques by implementing multiple machine learning algorithms and data preprocessing techniques. The system used algorithms such as Naive Bayes, Decision Trees, Random Forests, Logistic Regression, and Support Vector Machines. Key preprocessing steps included text normalization, tokenization, stop-word removal, and stemming, which helped optimise the data for better model performance. To ensure comprehensive spam detection, the project tackled data imbalance through oversampling and undersampling techniques, enhancing the model’s ability to accurately classify spam and non-spam emails. The system was evaluated using standard metrics like accuracy, precision, recall, and F1-score to measure the effectiveness of different models. The final model provided high accuracy and improved the spam detection process by adapting to the changing landscape of email spamming tactics.</p>
+                    <div class="tech-used">
+                        <h4>Technologies Used:</h4>
+                        <div class="tech-icons-wrapper">
+                            <div class="tech-icons">
+                                <img src="images\Python.png" alt="Python">
+                                <div class="tooltip">Python</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Smart Money Management App</h3>
+                    <p>A financial budgeting app designed to help users manage their personal finances effectively. The application features user authentication, allowing new users to register with a username and password, while returning users can log in to access various functionalities. The app includes the ability to track both expenses and income by recording and categorising financial transactions, and it also allows users to calculate their current balance based on these inputs. Additionally, the app integrates a loan calculator, enabling users to input loan amounts, down payments, and interest rates, assessing the feasibility of the loan. The savings management feature allows users to track their savings and automatically calculate potential monthly and yearly earnings based on current interest rates. Lastly, the app also provides a financial summary that displays a comprehensive dashboard of the user's financial profile and activities.</p>
+                    <div class="tech-used">
+                        <h4>Technologies Used:</h4>
+                        <div class="tech-icons-wrapper">
+                            <div class="tech-icons">
+                                <img src="images\Java.png" alt="Java">
+                                <div class="tooltip">Java</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+        <div class="contact-header">
+            <h2>Contact</h2>
+        </div>
+        <div class="contact-text">
+            <p>If you want to get in touch, feel free to contact me at anytime.</p>
+        </div>
+        <div class="contact-container">
+            <!-- form -->
+            <form id="contactForm">
+                <!-- name field -->
+                <div class="form-field">
+                    <label class="form-label">Name</label>
+                    <div class="input-container">
+                        <input class="input" type="text" name="name" placeholder="Required..." required>
+                    </div>
+                </div>
+                <!-- email field -->
+                <div class="form-field">
+                    <label class="form-label">Email</label>
+                    <div class="input-container">
+                        <input class="input" type="email" name="email" placeholder="Required..." required>
+                    </div>
+                </div>
+                <!-- message field -->
+                <div class="form-field">
+                    <label class="form-label">Message</label>
+                    <div class="input-container">
+                        <textarea class="textarea" name="message" placeholder="Required..." required></textarea>
+                    </div>
+                </div>
+                <!-- submit button-->
+                <button class="submit-button" type="Submit">Submit</button>
+            </form>
+            <!-- 3 contact buttons-->
+            <div class="contact-button">
+                <a href="mailto:zylinng@gmail.com" class="contact-buttons">
+                    <img src="images\Mail.png" alt="Email" class="icon"> Email
+                </a>
+                <a href="https://www.linkedin.com/in/ng-zy-lin/" class="contact-buttons" target="_blank">
+                    <img src="images\LinkedIn.png" alt="LinkedIn" class="icon">LinkedIn
+                </a>
+                <a href="https://github.com/nzl123" class="contact-buttons" target="_blank">
+                    <img src="images\GitHub.png" alt="GitHub" class="icon"> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p>© 2024 Created by Ng Zy Lin</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
